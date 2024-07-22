@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" /><!--  to link css file -->
+</head>
+
+<body>
+    <!--A container for combining the slides and buttons-->
+    <div class="container">
+
+        <!-- To add button in slider-->
+        <span class="next">&#10095;</span>
+        <span class="prev">&#10094;</span>
+
+        <!-- To add slides in the image slider   -->
+        <section class="slides-row">
+            <div class="slide" id="lastImageDuplicate">
+                <img src="image6.jpg">
+            </div>
+            <div class="slide">
+                <img src="image1.jpg">
+            </div>
+            <div class="slide">
+                <img src="image2.jpg">
+            </div>
+            <div class="slide">
+                <img src="image3.jpg">
+            </div>
+            <div class="slide">
+                <img src="image4.jpg">
+            </div>
+            <div class="slide">
+                <img src="image5.jpg">
+            </div>
+            <div class="slide">
+                <img src="image6.jpg">
+            </div>
+            <div class="slide" id="firstImageDuplicate">
+                <img src="image1.jpg">
+            </div>
+        </section>
+
+        <!--To show navigation feature-->
+        <section class="dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </section>
+    </div>
+    <script src="project.js"></script>
+    <!--to link js file-->
+</body>
+
+</html>
